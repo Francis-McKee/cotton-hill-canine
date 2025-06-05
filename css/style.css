@@ -1,0 +1,165 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #232163;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2.contact-heading {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px; /* Add margin bottom to give space between paragraphs */
+    font-size: 16px;
+}
+
+.list {
+    columns: 2;
+    column-gap: 40px;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.list li {
+    break-inside: avoid; /* prevents awkward splitting of li */
+}
+
+form {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #232163;
+    border-radius: 15px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #232163;
+}
+
+textarea {
+    height: 120px;
+    font-family: inherit;
+}
+
+button[type="submit"] {
+    background-color: #232163;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #59548c;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #555;
+    outline: none;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+textarea::placeholder {
+    color: #999;
+}
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #232163;
+}
+
+.contact-container h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.contact-container button {
+    background-color: #fff;
+    color: #232163;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-container button:hover {
+    background-color: #59548c;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .data {
+        width: 225px;
+    }
+
+    .list {
+        columns: 1;
+    }
+}

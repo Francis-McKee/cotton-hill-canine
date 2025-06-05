@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cotton Hill Canine </title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+
+    <!-- Google Fonts link for Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <img src="/images/logo.png" alt="Cotton Hill Canine Logo" class="logo">
+        <h1> Canine Training and Behavior </h1>
+        <p> Your home for canine training and behavior services including: </p>
+        <ul class="list">
+            <li> Service 1 </li>
+            <li> Service 2 </li>
+            <li> Service 3 </li>
+            <li> Service 4 </li>
+            <li> Service 5 </li>
+            <li id="contact-form"> Service 6 </li> <!-- put contact-form id here so the actual form below would be centered on the page -->
+        </ul>
+        <hr>
+        <h2 class="contact-heading"> Contact Us </h2>
+        <form action="/" method="POST">
+            <label for="name">
+                Name:
+                <p><input type="text" name="name" placeholder="Enter your name here:" required></p>
+            </label>
+            <label for="email">
+                Email:
+                <p><input type="email" name="email" placeholder="Enter your email here:" required></p>
+            </label>
+            <label for="phone">
+                Phone:
+                <p><input type="tel" name="phone" placeholder="Enter your phone number here:" required></p>
+            </label>
+            <label for="message">
+                Message:
+                <p><textarea name="message" placeholder="Enter your message here:" required></textarea></p>
+            </label>
+            <button type="submit"> Send </button>
+        </form>
+        <br>
+        <hr>
+        <h2> Welcome to Cotton Hill Canine </h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo ex ante, a ultrices justo pulvinar ac. Nulla a sodales velit. Integer sit amet aliquam mauris. Ut ut velit at lorem porta vehicula at ut enim. Vivamus hendrerit non odio vel tincidunt. Etiam molestie massa nec convallis finibus. Quisque iaculis imperdiet lectus quis semper. Mauris a tempus lorem, eu dignissim tellus. Mauris rhoncus ultrices auctor. Curabitur id euismod mi. Suspendisse commodo eros sit amet dignissim efficitur. Duis vulputate, nibh a tempor porta, nulla ante ultrices erat, eget porta mi urna eu quam. Sed sodales velit a elit fringilla imperdiet. Donec a fermentum leo, ac imperdiet nibh. </p>
+        <p> Sed sit amet aliquet massa. Nullam ac purus sollicitudin, suscipit diam ut, efficitur ipsum. Ut aliquet ipsum id dui viverra tempus. Quisque at dui porttitor, tempor massa at, euismod risus. Praesent nec risus velit. Fusce tristique, augue eu rutrum bibendum, risus nibh sodales elit, quis commodo augue dui bibendum tellus. Donec eros leo, cursus vel orci vel, sagittis pretium erat. Morbi porta semper nisl, semper molestie nulla pretium in. Etiam hendrerit vitae eros at molestie. </p>
+        
+        <div class="responsive-video">
+            <iframe src="https://www.youtube.com/embed/s99bglShKj0?si=W5rw_gY2yh_JZvd8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <br>
+
+        <div class="contact-container">
+            <h2> Contact Us for More Information </h2>
+
+            <!-- Contact Us Button -->
+            <button type="submit" onclick="window.location.href='#contact-form'">
+                Contact Us
+            </button>
+        </div>
+    </div>
+</body>
+</html>
